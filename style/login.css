@@ -1,0 +1,152 @@
+*{
+    margin:0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-login{
+    display: flex;
+}
+
+.body-login .content{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.body-login #forms{
+    box-shadow: -6px 0px 20px 0px;
+}
+
+.body-login #home{
+    background-color: #9DB3E6;
+    background-image: url(/img/fondo-login.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.body-login #home a{
+    background-color: #0A0147;
+    color: white;
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-bottom: 10vh;
+}
+
+.body-login .content .min-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.body-login .min-content h6{
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.body-login .content .title{
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 5%;
+}
+
+.body-login .min-content .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: ; */
+}
+
+.body-login .min-content .btn{
+    text-align: center;
+    width: 30%;
+    height: 10%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    font-size: 15pt;
+    font-weight: bold;
+    border: 3px solid black;
+    background-color: #9DB3E6;
+}
+
+.body-login .text input{
+    margin: 20px 0px 20px;
+    width: 60%;
+    border: 3px solid black;
+    border-radius: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 15pt;
+    color: gray;
+}
+
+.body-login .max-selects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body-login .selects{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 65%;
+}
+
+.body-login .selects label{
+    font-size: 15pt;
+    color: gray;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.body-login .selects input{
+    height: 50px;
+    width: 50px;
+    border: 3px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+}
+  
+.body-login .selects input:checked {
+   background-color: black; /* Cambia el color de fondo al marcar */
+   border: 0px;
+}
+
+.body-login .form-group{
+    margin: 5px 0 5px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.body-login .content .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5%;
+    font-size: 10pt;
+}
+
+.body-login .content .footer a{
+    /* text-decoration: none; */
+    color: black;
+    font-weight: bold;
+    font-size: 10pt;
+
+}
